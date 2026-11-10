@@ -59,7 +59,7 @@ jobs:
         uses: pnpm/action-setup@v4
 
       - name: ⎔ Setup node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 24 # Needed for npm@11 for Trusted Publishing
           cache: "pnpm"
@@ -101,7 +101,7 @@ jobs:
         uses: pnpm/action-setup@v4
 
       - name: ⎔ Setup node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 24 # Needed for npm@11 for Trusted Publishing
           cache: "pnpm"
@@ -166,7 +166,7 @@ jobs:
         uses: pnpm/action-setup@v4
 
       - name: ⎔ Setup node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 24 # Needed for npm@11 for Trusted Publishing
           cache: "pnpm"
@@ -234,7 +234,7 @@ jobs:
         uses: pnpm/action-setup@v4
 
       - name: ⎔ Setup node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 24 # Needed for npm@11 for Trusted Publishing
           cache: "pnpm"
